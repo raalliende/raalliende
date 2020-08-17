@@ -1,0 +1,7 @@
+The paper describes a recomendation system based on item based collaborative filtering. And compares it to user based collaborative filtering. The paper first describes how user based filters work.Then describes the challenges in user based filters. Followed by an explanation on how item based filters work, their advantages and ends with the experimental results of the item based filters compared to user based ones.
+
+The paper does a very good job explaining how item based filters work, and the difference with user based filters. It is also very explicit in pointing out the advantages of item based filters, but leaves out disadvantages. It is also very clear in showing the results and how they compare to traditional benchmarks.
+
+One thing that I didn't see in the experiments was meassuring how the amount of work that could be pre computed in item based filters (the paper gave the full time only). Considering this is one of the strengths of item based filters, showing that information could have been useful.
+
+Finally one further research that could be derived from this paper is the use of numerical aproaches instead of exact aproaches to reduce computation time. considering that the authors reduced the model size in order to reduce computation time, it would be interesting to see if using numerical methods to calculate the ratings instead of exact ones could provide similar tradeoff improvements.
