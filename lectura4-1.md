@@ -1,0 +1,8 @@
+El paper trata sobre sistemas recomendadores basados en contenido, en un principio describe las diferencias de datos estructurados, no estructurados y semi-estructurados. Despues describe como en un sistema basado en contenido guarda el perfil del usuario, es decir la información relevante que en este caso corresponde al modelo de preferencias y al historial de uso
+El grueso del paper consiste en como se crean los modelos de preferencias de usuarios y describe los metodos de arbol de decision, knn, relevance feedback, naive bayes. Por ultimo el paper comenta sobre las limitaciones de los sistemas basados en contenido
+
+EL paper es más una recopilación de distintos metodos para hacer recomendacion en base a contenido, y los describe de forma superificial. Por lo que es más un punto de partida para implementar un sistema basado en contenido,si se quisiera implementar bien haría falta ver un paper que entre más en profundidad en el metodo que se va a utilizar.
+
+Una cosa que el paper logra bastante bien es describir los metodos de forma breve y clara. Y si bien esto no es suficiente para entender todos los detalles del metodo es suficiente para tener una idea más clara de como funcionan. Otra cosa que logra bien el paper es describir en que situaciones o para que se utiliza cada metodo, lo que ayuda a darse una idea de sus usos.
+
+De los metodos que el paper utiliza, siento que naive bayes y arboles de decision son los que mas prosperaron, o por lo menos son los que mas he visto personalmente. Esto muestra que el paper sigue siendo relevante al día de hoy, dado que trata sobre metodos que siguen siendo utilizados.
