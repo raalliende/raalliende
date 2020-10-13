@@ -1,0 +1,8 @@
+El papaer trata sobre como se utiliza un sistema en base a bandidos para crear un sistema recomendador para un carrusel de musica en un sistema de streaming. Al igual que en el paper anterior, se define un sistema bandido como un sistema que presenta varias opciones (en este caso playlists) y el sistema elige una de acuerdo a una distribucion. Otro detalle importante que el paper considera es el modelo de cascada que implementan. En este modelo se consdidera que el ultimo item visto es el ultimo item seleccionado. Esto se debe a que no todos los usuarios van a revisar la lista completa, y se puede suponer que revisaron la lista hasta el ultimo item que si fue seleccionado.
+
+Viendo los resultados, se puede apreciar como los metodos utilizados mejoran con el tiempo, es decir las recomendaciones se vuelven mejores a mayores rondas. Un detalle que tiene este paper, es que toma como base line recomendaciones aleatorias, que es un baseline relativamente bajo comparado con otras alternativas sencillas como most popular.
+
+Se puede ver de los resultados como los metodos propuestos en general funcionan, y el que entrego mejores resultados es thomson sampling, con una distribucion a priori pesimista. Este resultado se puede explicar en que las personas en un principio tienden a rechazar una recomendacion aleatoria en vez de aceptarla, por lo que una distribucion pessimista tiene más sentido.
+Tambien se puede ver como aplicar el modelo de cascada comparado con no aplicarlo entrega mejores resultados. Esto valida el hecho que el modelo de cascada es un supuesto razonable
+
+Una queja pequeña es que los graficos me fueron particularment diciles de leer, porque soy daltonico y los colores que utilizaban no eran particularmente amigables.
